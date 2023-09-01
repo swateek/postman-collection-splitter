@@ -4,6 +4,8 @@ There has been multiple times when POSTMAN fails to upload an already exported c
 ## Setting up the Project
 
 ```bash
+pre-commit install
+
 python3 -m venv .venv
 source .venv/bin/activate
 python3 app.py
